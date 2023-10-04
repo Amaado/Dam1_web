@@ -74,11 +74,11 @@ nav a:hover {
     }
 
     25% {
-        transform: scale(1.05);
+        transform: scale(1.02);
     }
 
     50% {
-        transform: scale(0.99);
+        transform: scale(0.995);
     }
 
     55% {
@@ -93,6 +93,7 @@ nav a:hover {
 
 img {
     height: 90px;
+    border-radius: 5px;
 }
 
 #title {
