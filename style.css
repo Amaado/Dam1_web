@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+:root {
+    --img: url('img/Cc2.png');
+  }
+
 * {
     padding: 0;
     margin: 0;
@@ -62,6 +66,7 @@ nav a:hover {
     border-radius: 15px;
     text-align: center;
     min-width: 550px;
+    
 }
 
 .card:hover {
@@ -70,6 +75,46 @@ nav a:hover {
     background-image: linear-gradient(260deg, #333c4a, #2e3643, #20262e);
 }
 
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    padding-right: 20px;
+    gap: 10px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    text-align: center;
+    min-width: 550px;
+}
+
+.contenedor:hover {
+    animation-name: animacion;
+    animation-duration: 1.5s;
+    background-image: linear-gradient(260deg, #333c4a, #2e3643, #20262e);
+
+}
+
+
+
+  @keyframes animacion {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.02);
+    }
+
+    50% {
+        transform: scale(0.995);
+    }
+
+    55% {
+        transform: scale(1);
+    }
+}
 #fullscreen-image {
     display: none;
     position: fixed;
@@ -81,13 +126,13 @@ nav a:hover {
     object-fit: cover;
     z-index: 999;
     transition: opacity 2.5s ease-in-out;
-  }
+}
 
   button {
     font-size: 16px;
     padding: 10px;
     margin: 20px;
-    width: 20px;
+    width: 1px;
     background-color: #262B31;
     position: absolute;
     bottom: 0;
@@ -102,7 +147,7 @@ nav a:hover {
     overflow: visible;
     padding: 0;
     cursor: pointer;
-  }
+}
 
 
 
@@ -125,12 +170,14 @@ nav a:hover {
     }
 }
 
+
+
 .img {
     margin-right: 70px;
     width: 20%;
 }
 
-div img {
+div.img img {
     height: 90px;
     border-radius: 5px;
 }
