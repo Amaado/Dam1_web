@@ -17,13 +17,103 @@
 	</nav>
 	<main>
 	</main>
-	<button onclick="mostrarImagen()"></button>
+	
+  <button class="ButtonCc1" onclick="mostrarImagenCc1()" onmouseover="mostrarImagenPreviewCc1()"></button>
+    <button class="ButtonCc2" onclick="mostrarImagenCc2()" onmouseover="mostrarImagenPreviewCc2()"></button>
+    <button class="ButtonCc3" onclick="mostrarImagenCc3()" onmouseover="mostrarImagenPreviewCc3()"></button>
+    <button class="ButtonCc4" onclick="mostrarImagenCc4()" onmouseover="mostrarImagenPreviewCc4()"></button>
+    <button class="ButtonCc5" onclick="mostrarImagenCc5()" onmouseover="mostrarImagenPreviewCc5()"></button>
+    <button class="ButtonCc6" onclick="mostrarImagenCc6()" onmouseover="mostrarImagenPreviewCc6()"></button>
+    <button class="ButtonCc7" onclick="mostrarImagenCc7()" onmouseover="mostrarImagenPreviewCc7()"></button>
+    <button class="ButtonCc8" onclick="mostrarImagenCc8()" onmouseover="mostrarImagenPreviewCc8()"></button>
+    
+    <img id="Cc1" src="Cc1.png" alt="Imagen a pantalla completa">
+    <img id="Cc1preview" src="Cc1.png" alt="Imagen preview boton">
 
-  <img id="fullscreen-image" src="Cc2.png" alt="Imagen a pantalla completa">
+    <img id="Cc2" src="Cc2.png" alt="Imagen a pantalla completa">
+    <img id="Cc2preview" src="Cc2.png" alt="Imagen preview boton">
+
+    <img id="Cc3" src="Cc3.png" alt="Imagen a pantalla completa">
+    <img id="Cc3preview" src="Cc3.png" alt="Imagen preview boton">
+
+    <img id="Cc4" src="Cc4.png" alt="Imagen a pantalla completa">
+    <img id="Cc4preview" src="Cc4.png" alt="Imagen preview boton">
+
+    <img id="Cc5" src="Cc5.png" alt="Imagen a pantalla completa">
+    <img id="Cc5preview" src="Cc5.png" alt="Imagen preview boton">
+
+    <img id="Cc6" src="Cc6.png" alt="Imagen a pantalla completa">
+    <img id="Cc6preview" src="Cc6.png" alt="Imagen preview boton">
+
+    <img id="Cc7" src="Cc7.png" alt="Imagen a pantalla completa">
+    <img id="Cc7preview" src="Cc7.png" alt="Imagen preview boton">
+
+    <img id="Cc8" src="Cc8.png" alt="Imagen a pantalla completa">
+    <img id="Cc8preview" src="Cc8.png" alt="Imagen preview boton">
+
+
+
+    <script>
+      function mostrarImagenCc1() {
+        var imagen = document.getElementById("Cc1");
+        imagen.style.opacity = "0"; // Inicia con opacidad al 0%
+  
+        setTimeout(function() {
+          imagen.style.display = "block";
+          imagen.style.opacity = "0";
+        }, 0);
+  
+        setTimeout(function() {
+          imagen.style.opacity = "0.5";
+        }, 1000);
+  
+        setTimeout(function() {
+          imagen.style.opacity = "0.5";
+        }, 2000);
+  
+        setTimeout(function() {
+          imagen.style.opacity = "0";
+        }, 3000);
+  
+        setTimeout(function() {
+          imagen.style.opacity = "0";
+          imagen.style.display = "none";
+        }, 5500);
+      }
+    </script>
+  
+  <script>
+      function mostrarImagenPreviewCc1() {
+        var imagen = document.getElementById("Cc1preview");
+        imagen.style.opacity = "0"; // Inicia con opacidad al 0%
+  
+        setTimeout(function() {
+          imagen.style.display = "block";
+          imagen.style.opacity = "0";
+        }, 0);
+  
+        setTimeout(function() {
+          imagen.style.opacity = "1";
+        }, 200);
+  
+        setTimeout(function() {
+          imagen.style.opacity = "1";
+        }, 2500);
+  
+        setTimeout(function() {
+          imagen.style.opacity = "0";
+        }, 2600);
+  
+        setTimeout(function() {
+          imagen.style.opacity = "0";
+          imagen.style.display = "none";
+        }, 5500);
+      }
+  </script>
 
   <script>
-    function mostrarImagen() {
-      var imagen = document.getElementById("fullscreen-image");
+    function mostrarImagenCc2() {
+      var imagen = document.getElementById("Cc2");
       imagen.style.opacity = "0"; // Inicia con opacidad al 0%
 
       setTimeout(function() {
@@ -49,6 +139,383 @@
       }, 5500);
     }
   </script>
+
+<script>
+    function mostrarImagenPreviewCc2() {
+      var imagen = document.getElementById("Cc2preview");
+      imagen.style.opacity = "0"; // Inicia con opacidad al 0%
+
+      setTimeout(function() {
+        imagen.style.display = "block";
+        imagen.style.opacity = "0";
+      }, 0);
+
+      setTimeout(function() {
+        imagen.style.opacity = "1";
+      }, 200);
+
+      setTimeout(function() {
+        imagen.style.opacity = "1";
+      }, 2500);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+      }, 2600);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+        imagen.style.display = "none";
+      }, 5500);
+    }
+</script>
+
+<script>
+    function mostrarImagenCc3() {
+      var imagen = document.getElementById("Cc3");
+      imagen.style.opacity = "0"; // Inicia con opacidad al 0%
+
+      setTimeout(function() {
+        imagen.style.display = "block";
+        imagen.style.opacity = "0";
+      }, 0);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0.7";
+      }, 1000);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0.7";
+      }, 2000);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+      }, 3000);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+        imagen.style.display = "none";
+      }, 5500);
+    }
+  </script>
+
+<script>
+    function mostrarImagenPreviewCc3() {
+      var imagen = document.getElementById("Cc3preview");
+      imagen.style.opacity = "0"; // Inicia con opacidad al 0%
+
+      setTimeout(function() {
+        imagen.style.display = "block";
+        imagen.style.opacity = "0";
+      }, 0);
+
+      setTimeout(function() {
+        imagen.style.opacity = "1";
+      }, 200);
+
+      setTimeout(function() {
+        imagen.style.opacity = "1";
+      }, 2500);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+      }, 2600);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+        imagen.style.display = "none";
+      }, 5500);
+    }
+</script>
+
+<script>
+    function mostrarImagenCc4() {
+      var imagen = document.getElementById("Cc4");
+      imagen.style.opacity = "0"; // Inicia con opacidad al 0%
+
+      setTimeout(function() {
+        imagen.style.display = "block";
+        imagen.style.opacity = "0";
+      }, 0);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0.7";
+      }, 1000);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0.7";
+      }, 2000);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+      }, 3000);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+        imagen.style.display = "none";
+      }, 5500);
+    }
+  </script>
+
+<script>
+    function mostrarImagenPreviewCc4() {
+      var imagen = document.getElementById("Cc4preview");
+      imagen.style.opacity = "0"; // Inicia con opacidad al 0%
+
+      setTimeout(function() {
+        imagen.style.display = "block";
+        imagen.style.opacity = "0";
+      }, 0);
+
+      setTimeout(function() {
+        imagen.style.opacity = "1";
+      }, 200);
+
+      setTimeout(function() {
+        imagen.style.opacity = "1";
+      }, 2500);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+      }, 2600);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+        imagen.style.display = "none";
+      }, 5500);
+    }
+</script>
+
+<script>
+    function mostrarImagenCc5() {
+      var imagen = document.getElementById("Cc5");
+      imagen.style.opacity = "0"; // Inicia con opacidad al 0%
+
+      setTimeout(function() {
+        imagen.style.display = "block";
+        imagen.style.opacity = "0";
+      }, 0);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0.7";
+      }, 1000);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0.7";
+      }, 2000);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+      }, 3000);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+        imagen.style.display = "none";
+      }, 5500);
+    }
+  </script>
+
+<script>
+    function mostrarImagenPreviewCc5() {
+      var imagen = document.getElementById("Cc5preview");
+      imagen.style.opacity = "0"; // Inicia con opacidad al 0%
+
+      setTimeout(function() {
+        imagen.style.display = "block";
+        imagen.style.opacity = "0";
+      }, 0);
+
+      setTimeout(function() {
+        imagen.style.opacity = "1";
+      }, 200);
+
+      setTimeout(function() {
+        imagen.style.opacity = "1";
+      }, 2500);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+      }, 2600);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+        imagen.style.display = "none";
+      }, 5500);
+    }
+</script>
+
+<script>
+    function mostrarImagenCc6() {
+      var imagen = document.getElementById("Cc6");
+      imagen.style.opacity = "0"; // Inicia con opacidad al 0%
+
+      setTimeout(function() {
+        imagen.style.display = "block";
+        imagen.style.opacity = "0";
+      }, 0);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0.5";
+      }, 1000);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0.5";
+      }, 2000);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+      }, 3000);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+        imagen.style.display = "none";
+      }, 5500);
+    }
+  </script>
+
+<script>
+    function mostrarImagenPreviewCc6() {
+      var imagen = document.getElementById("Cc6preview");
+      imagen.style.opacity = "0"; // Inicia con opacidad al 0%
+
+      setTimeout(function() {
+        imagen.style.display = "block";
+        imagen.style.opacity = "0";
+      }, 0);
+
+      setTimeout(function() {
+        imagen.style.opacity = "1";
+      }, 200);
+
+      setTimeout(function() {
+        imagen.style.opacity = "1";
+      }, 2500);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+      }, 2600);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+        imagen.style.display = "none";
+      }, 5500);
+    }
+</script>
+
+<script>
+    function mostrarImagenCc7() {
+      var imagen = document.getElementById("Cc7");
+      imagen.style.opacity = "0"; // Inicia con opacidad al 0%
+
+      setTimeout(function() {
+        imagen.style.display = "block";
+        imagen.style.opacity = "0";
+      }, 0);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0.5";
+      }, 1000);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0.5";
+      }, 2000);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+      }, 3000);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+        imagen.style.display = "none";
+      }, 5500);
+    }
+  </script>
+
+<script>
+    function mostrarImagenPreviewCc7() {
+      var imagen = document.getElementById("Cc7preview");
+      imagen.style.opacity = "0"; // Inicia con opacidad al 0%
+
+      setTimeout(function() {
+        imagen.style.display = "block";
+        imagen.style.opacity = "0";
+      }, 0);
+
+      setTimeout(function() {
+        imagen.style.opacity = "1";
+      }, 200);
+
+      setTimeout(function() {
+        imagen.style.opacity = "1";
+      }, 2500);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+      }, 2600);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+        imagen.style.display = "none";
+      }, 5500);
+    }
+</script>
+
+<script>
+    function mostrarImagenCc8() {
+      var imagen = document.getElementById("Cc8");
+      imagen.style.opacity = "0"; // Inicia con opacidad al 0%
+
+      setTimeout(function() {
+        imagen.style.display = "block";
+        imagen.style.opacity = "0";
+      }, 0);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0.6";
+      }, 1000);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0.6";
+      }, 2000);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+      }, 3000);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+        imagen.style.display = "none";
+      }, 5500);
+    }
+  </script>
+
+<script>
+    function mostrarImagenPreviewCc8() {
+      var imagen = document.getElementById("Cc8preview");
+      imagen.style.opacity = "0"; // Inicia con opacidad al 0%
+
+      setTimeout(function() {
+        imagen.style.display = "block";
+        imagen.style.opacity = "0";
+      }, 0);
+
+      setTimeout(function() {
+        imagen.style.opacity = "1";
+      }, 200);
+
+      setTimeout(function() {
+        imagen.style.opacity = "1";
+      }, 2500);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+      }, 2600);
+
+      setTimeout(function() {
+        imagen.style.opacity = "0";
+        imagen.style.display = "none";
+      }, 5500);
+    }
+</script>
 </body>
 
 </html>
