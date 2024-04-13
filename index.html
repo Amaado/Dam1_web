@@ -98,42 +98,42 @@
 
     <button
       class="ButtonCc1"
-      onclick="mostrarImagen('Cc1', [0.5, 0.5, 0], [1000, 2000, 3000])"
+      onclick="mostrarImagen('Cc1', [0.5, 0.5], [1000,2000,3000])"
       onmouseover="mostrarImagenPreview('Cc1')"
     ></button>
     <button
       class="ButtonCc2"
-      onclick="mostrarImagen('Cc2', [0.5, 0.5], [1000, 2000, 3000])"
+      onclick="mostrarImagen('Cc2', [0.5, 0.5], [1000,2000,3000])"
       onmouseover="mostrarImagenPreview('Cc2')"
     ></button>
     <button
       class="ButtonCc3"
-      onclick="mostrarImagen('Cc3', [0.7, 0.7], [1000, 2000, 3000])"
+      onclick="mostrarImagen('Cc3', [0.7, 0.7], [1000,2000,3000])"
       onmouseover="mostrarImagenPreview('Cc3')"
     ></button>
     <button
       class="ButtonCc4"
-      onclick="mostrarImagen('Cc4', [0.7, 0.7], [1000, 2000, 3000])"
+      onclick="mostrarImagen('Cc4', [0.7, 0.7], [1000,2000,3000])"
       onmouseover="mostrarImagenPreview('Cc4')"
     ></button>
     <button
       class="ButtonCc5"
-      onclick="mostrarImagen('Cc5', [0.7, 0.7], [1000, 2000, 3000])"
+      onclick="mostrarImagen('Cc5', [0.7, 0.7], [1000,2000,3000])"
       onmouseover="mostrarImagenPreview('Cc5')"
     ></button>
     <button
       class="ButtonCc6"
-      onclick="mostrarImagen('Cc6', [0.5, 0.5], [1000, 2000, 3000])"
+      onclick="mostrarImagen('Cc6', [0.5, 0.5], [1000,2000,3000])"
       onmouseover="mostrarImagenPreview('Cc6')"
     ></button>
     <button
       class="ButtonCc7"
-      onclick="mostrarImagen('Cc7', [0.5, 0.5], [1000, 2000, 3000])"
+      onclick="mostrarImagen('Cc7', [0.5, 0.5], [1000,2000,3000])"
       onmouseover="mostrarImagenPreview('Cc7')"
     ></button>
     <button
       class="ButtonCc8"
-      onclick="mostrarImagen('Cc8', [0.6, 0.6], [1000, 2000, 3000])"
+      onclick="mostrarImagen('Cc8', [0.6, 0.6], [1000,2000,3000])"
       onmouseover="mostrarImagenPreview('Cc8')"
     ></button>
 
@@ -164,6 +164,8 @@
     <script>
       function mostrarImagen(imageId, opacity, times) {
         console.log(`ImageID: ${imageId}`);
+        console.log(`Opcity: ${opacity}`);
+        console.log(`Times: ${times}`);
         var imagen = document.getElementById(imageId);
         imagen.style.opacity = 0; // Inicia con opacidad al 0%
 
@@ -173,7 +175,7 @@
         }, 0);
 
         setTimeout(function () {
-          imagen.style.opacity = opactiy[0];
+          imagen.style.opacity = opacity[0];
         }, times[0]);
 
         setTimeout(function () {
@@ -187,7 +189,7 @@
         setTimeout(function () {
           imagen.style.opacity = "0";
           imagen.style.display = "none";
-        }, 5500);
+        }, 8000); // Ajuste el tiempo total a 8000 milisegundos (8 segundos)
       }
 
       function mostrarImagenPreview(imageId) {
@@ -214,7 +216,7 @@
         setTimeout(function () {
           imagen.style.opacity = "0";
           imagen.style.display = "none";
-        }, 5500);
+        }, 8000); // Ajuste el tiempo total a 8000 mil
       }
     </script>
   </body>
