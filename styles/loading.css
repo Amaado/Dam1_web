@@ -15,23 +15,20 @@
 
 
 /*Propiedades para TEXTO*/
-
-.luminance-container {
+  
+  .luminance-container {
     color: #fff;
     height: 100px;
     overflow: hidden;
-    background: #33364100;
+    background: #333641b9;
     padding: 10px;
-  }
-  
-  .luminance-container {
     display: -webkit-box;
     display: flex;
     padding: 10px;
     -webkit-box-align: center;
-            align-items: center;
+    align-items: center;
     -webkit-box-pack: center;
-            justify-content: center;
+    justify-content: center;
             
   }
   
@@ -42,8 +39,10 @@
     color: transparent;
     font-size: 40px;
     font-family: "Source Sans Pro", sans-serif;
-    -webkit-animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
-            animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
+    -webkit-animation: reveal ease-in-out forwards 200ms, glow 3000ms linear infinite ;
+    animation: reveal ease-in-out for 200ms, glow 3000ms linear infinite ;
+    outline: 1px solid red;
+            
   }
   @-webkit-keyframes reveal {
     
@@ -52,7 +51,6 @@
     }
   }
   @keyframes reveal {
-    
     100% {
       background-size: 300% 300%;
     }
@@ -83,8 +81,9 @@
     font-family: "Source Sans Pro", sans-serif;
     position: relative;
     filter: blur(3px);
-    top: 9px;´
-    background: 50% 100%/50% 50% no-repeat radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+    top: 9px;
+    animation: glowDot 3000ms linear infinite;
+    outline: 1px solid rgb(0, 255, 4);
 }
 
 .loader {
@@ -126,6 +125,18 @@
     opacity: 0;
     animation: dot-animation 2s infinite;
     
+}
+
+@keyframes glowDot {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 @keyframes dot-animation {
@@ -187,6 +198,7 @@ a:visited {
     outline-color: rgba(255, 255, 255, 0.247);
     outline-offset: 0px;
     padding: 10px;
+    border-radius: 8px;
 
     
   }
