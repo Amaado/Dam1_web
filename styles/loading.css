@@ -20,7 +20,7 @@
     color: #fff;
     height: 100px;
     overflow: hidden;
-    background: #333641b9;
+    /*background: #333641b9;*/
     padding: 10px;
     display: -webkit-box;
     display: flex;
@@ -41,7 +41,7 @@
     font-family: "Source Sans Pro", sans-serif;
     -webkit-animation: reveal ease-in-out forwards 200ms, glow 3000ms linear infinite ;
     animation: reveal ease-in-out for 200ms, glow 3000ms linear infinite ;
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
             
   }
   @-webkit-keyframes reveal {
@@ -83,7 +83,7 @@
     filter: blur(3px);
     top: 9px;
     animation: glowDot 3000ms linear infinite;
-    outline: 1px solid rgb(0, 255, 4);
+    /*outline: 1px solid rgb(0, 255, 4);*/
 }
 
 .loader {
