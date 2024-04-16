@@ -37,7 +37,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    font-size: 40px;
+    font-size: 25px;
     font-family: "Source Sans Pro", sans-serif;
     -webkit-animation: reveal ease-in-out forwards 200ms, glow 3000ms linear infinite ;
     animation: reveal ease-in-out for 200ms, glow 3000ms linear infinite ;
@@ -81,7 +81,7 @@
     font-family: "Source Sans Pro", sans-serif;
     position: relative;
     filter: blur(3px);
-    top: 9px;
+    top: 5px;
     animation: glowDot 3000ms linear infinite;
     /*outline: 1px solid rgb(0, 255, 4);*/
 }
@@ -98,7 +98,7 @@
     position: relative;
     right: 41px;
     opacity: 60%;
-    top: 9px;
+    top: 5px;
 }
 
   
