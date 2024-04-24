@@ -230,7 +230,7 @@ body {
   width: 1%;
   border-radius: 2px;
   box-shadow: inset 0 0 2px rgb(19, 18, 18);
-  animation: progress 7s linear forwards;
+  animation: progress 7s linear infinite/*forwards*/;
 }
 
 @keyframes progress {
