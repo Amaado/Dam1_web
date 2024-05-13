@@ -68,7 +68,8 @@ nav a:hover {
 
 .card:hover {
   animation-name: animacion;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
   background-image: linear-gradient(260deg, #5a6679ad, #20262e13);
 }
 
@@ -88,7 +89,8 @@ nav a:hover {
 
 .contenedor:hover {
   animation-name: animacion;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
   background-image: linear-gradient(260deg, #5a6679ad, #20262e13);
 }
 
@@ -101,14 +103,12 @@ nav a:hover {
     transform: scale(1.02);
   }
 
-  50% {
-    transform: scale(0.995);
+  100% {
+    transform: scale(1.02);
   }
 
-  55% {
-    transform: scale(1);
-  }
 }
+
 
 /*Propiedades para IMAGENES*/
 
@@ -478,24 +478,6 @@ nav a:hover {
   padding: 0;
   cursor: pointer;
   opacity: 20%;
-}
-
-@keyframes animacion {
-  0% {
-    transform: scale(1);
-  }
-
-  25% {
-    transform: scale(1.02);
-  }
-
-  50% {
-    transform: scale(0.995);
-  }
-
-  55% {
-    transform: scale(1);
-  }
 }
 
 .img {
